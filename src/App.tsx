@@ -1,4 +1,5 @@
-import React, { useRef } from 'react'
+import * as React from 'react';
+import { useRef } from 'react'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
 
 // Little helpers ...
@@ -108,7 +109,7 @@ export default function App() {
             justifyContent: 'center',
           }}
           onClick={() => parallax.current.scrollTo(0)}>
-          {/* <img src={url('clients-main')} style={{ width: '40%' }} /> */}
+          <img src={url('clients-main')} style={{ width: '40%' }} />
         </ParallaxLayer>
       </Parallax>
     </div>
