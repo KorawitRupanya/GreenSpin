@@ -7,7 +7,7 @@ const simpleLeaf: string = require("./assets/Simpleleaf.svg").default;
 const pulp: string = require("./assets/Pulp.svg").default;
 const white_fiber:string = require( "./assets/White_Fiber.svg").default;
 const fabric: string = require("./assets/FabricMaterial.svg").default;
-const fashion: string = require("./assets/Fashion.svg").default;
+const finalProduct: string = require("./assets/FinalProduct.svg").default;
 const spinnovaLogo: string = require("./assets/Spinnova_logo_white.svg").default;
 
 // Little helpers ...
@@ -59,18 +59,6 @@ export default function App() {
         <ParallaxLayer offset={2.6} speed={0.4} style={{ opacity: 0.6 }}>
           <img src={simpleLeaf} style={{ display: 'block', width: '20%', marginLeft: '5%' }} />
           <img src={simpleLeaf} style={{ display: 'block', width: '15%', marginLeft: '75%' }} />
-        </ParallaxLayer>
-
-        <ParallaxLayer
-          offset={5.5}
-          speed={-0.4}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            pointerEvents: 'none',
-          }}>
-          <img src={url('earth')} style={{ width: '60%' }} />
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -164,7 +152,7 @@ export default function App() {
 
         <ParallaxLayer
           offset={4}
-          speed={-0}
+          speed={0.1}
           style={{
             display: 'flex',
             alignItems: 'center',
@@ -178,15 +166,15 @@ export default function App() {
             justifyContent: 'center',
             color: 'white',
           }}>
-          Fashion Apparel
+          Final Product
         </h1>
-          <img src={fashion} style={{ width: '100%' }} />
+          <img src={finalProduct} style={{ width: '100%' }} />
             </div>
         </ParallaxLayer>
         
         <ParallaxLayer
           offset={5}
-          speed={-0}
+          speed={0.1}
           style={{
             display: 'flex',
             alignItems: 'center',
@@ -194,6 +182,18 @@ export default function App() {
           }}
           onClick={() => parallax.current.scrollTo(0)}>
           <img src={spinnovaLogo} style={{ width: '40%' }} />
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          offset={5.5}
+          speed={-0.4}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            pointerEvents: 'none',
+          }}>
+          <img src={url('earth')} style={{ width: '60%' }} />
         </ParallaxLayer>
       </Parallax>
     </div>
