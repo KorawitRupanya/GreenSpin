@@ -1,6 +1,6 @@
 # GreenSpin
-Fashion that lasts, sustainability that matters.
-Be Fashionably Sustainable.
+_Fashion that lasts, sustainability that matters._
+_Be Fashionably Sustainable._
 
 Spinnova, a Finnish sustainable material company, produces textile fibers from wood. This process is eco-friendly, saving water, energy, and generating zero waste. The fibers are versatile and can be used in the fashion and textile industries. Currently they plan to break through the noise in the crowded space of fashion. Being a company committed to sustainability, they plan to grow organically rather than by viral storm.
 
