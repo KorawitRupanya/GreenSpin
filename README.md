@@ -32,7 +32,10 @@ https://www.youtube.com/watch?v=NYipMKjXeNU
 
 
 ## Mobile Application Demo :
-https://www.figma.com/proto/S5IrR9M36ftF4Vo8PkH51g/SpinGreen?node-id=103-247&scaling=scale-down&page-id=0%3A1&starting-point-node-id=119%3A701&show-proto-sidebar=1 
+https://www.figma.com/proto/S5IrR9M36ftF4Vo8PkH51g/SpinGreen?node-id=103-247&scaling=scale-down&page-id=0%3A1&starting-point-node-id=119%3A701&show-proto-sidebar=1  
 
+
+## Report and Presentation :
+For further understanding this project, please kindly refer on the pitch PPT and report on **REPORTING** folder
 
 
